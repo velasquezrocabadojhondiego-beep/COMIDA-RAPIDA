@@ -1,0 +1,39 @@
+header{
+    background:linear-gradient(
+        to left,
+        rgb(0, 21, 255),
+        rgb(164, 164, 38)
+    );
+}
+footer{
+    background:linear-gradient(
+        to right,
+        rgb(6,239,44),
+        rgb(245,226,13)
+    );
+}
+.imagendefondo{
+    background-image: url(imagenes/imagendefondo.jfif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 550px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+
+.boton{
+    color:orange;
+    background-color: red;
+    padding 15px 90px;
+    font-size: medium;
+    border-radius: 30px;
+}
+.boton:hover{
+    color:bisque;
+    transform: scale(1.5);
+    cursor: pointer;
+    font-weight: bold;
+}
